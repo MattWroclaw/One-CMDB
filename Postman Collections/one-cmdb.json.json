@@ -256,7 +256,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "IP router - only",
 			"id": "bd661b78-b538-4043-af03-88aee1bda8eb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
