@@ -60,7 +60,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "Merkury2023!!",
+						"password": "invalid",
 						"username": "admin"
 					}
 				},
@@ -105,7 +105,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "Merkury2023!!",
+						"password": "invalid",
 						"username": "admin"
 					}
 				},
@@ -145,7 +145,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "Merkury2023!!",
+						"password": "invalid",
 						"username": "admin"
 					}
 				},
@@ -185,7 +185,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "Merkury2023!!",
+						"password": "invalid",
 						"username": "admin"
 					}
 				},
@@ -225,7 +225,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "Merkury2023!!",
+						"password": "invalid",
 						"username": "admin"
 					}
 				},
@@ -271,7 +271,7 @@
 	"auth": {
 		"type": "basic",
 		"basic": {
-			"password": "Merkury2023!!",
+			"password": "invalid",
 			"username": "admin"
 		}
 	},
