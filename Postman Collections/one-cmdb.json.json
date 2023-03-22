@@ -1,0 +1,288 @@
+{
+	"info": {
+		"_postman_id": "7e0a75ad-fadb-442a-87c8-7fb353216c9c",
+		"name": "OneCMDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "computer and software",
+			"_postman_id": "b34c33a5-7d74-4d03-b011-0238c33d651d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "Merkury2023!!",
+						"username": "admin"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"records\":[\r\n      {\r\n         \"cmdb_ci_computer\":{\r\n            \"asset\":\"73c1fa8837f3100044e0bfc8bcbe5ded\",\r\n            \"asset_tag\":\"P1000226\",\r\n            \"assigned\":\"2022-06-02 07:00:00\",\r\n            \"assigned_to\":\"c9884ac30a0a0bdb3879454e8f02774e\",\r\n            \"assignment_group\":\"\",\r\n            \"attestation_score\":\"\",\r\n            \"attestation_status\":\"\",\r\n            \"attested\":false,\r\n            \"attested_by\":\"\",\r\n            \"attested_date\":\"\",\r\n            \"attributes\":\"\",\r\n            \"business_unit\":\"\",\r\n            \"can_print\":false,\r\n            \"category\":\"Do not migrate to asset\",\r\n            \"cd_rom\":false,\r\n            \"cd_speed\":\"\",\r\n            \"change_control\":\"\",\r\n            \"chassis_type\":\"\",\r\n            \"checked_in\":\"\",\r\n            \"checked_out\":\"\",\r\n            \"cmdb_ot_entity\":\"\",\r\n            \"comments\":\"\",\r\n            \"company\":\"31bea3d53790200044e0bfc8bcbe5dec\",\r\n            \"correlation_id\":\"\",\r\n            \"cost\":3665,\r\n            \"cost_cc\":\"USD\",\r\n            \"cost_center\":\"d9d01546c0a80a6403e18b82250c80a1\",\r\n            \"cpu_core_count\":1,\r\n            \"cpu_core_thread\":\"\",\r\n            \"cpu_count\":1,\r\n            \"cpu_manufacturer\":\"7aad6d00c611228400f00e0f80b67d2d\",\r\n            \"cpu_name\":\"Intel(R) Pentium(R) M processor 1.86GHz\",\r\n            \"cpu_speed\":798,\r\n            \"cpu_type\":\"\",\r\n            \"default_gateway\":\"\",\r\n            \"delivery_date\":\"\",\r\n            \"department\":\"a581ab703710200044e0bfc8bcbe5de8\",\r\n            \"discovery_source\":\"\",\r\n            \"disk_space\":51,\r\n            \"dns_domain\":\"\",\r\n            \"due\":\"\",\r\n            \"due_in\":\"\",\r\n            \"duplicate_of\":\"\",\r\n            \"environment\":\"\",\r\n            \"fault_count\":0,\r\n            \"first_discovered\":\"2007-03-13 20:55:20\",\r\n            \"floppy\":\"\",\r\n            \"form_factor\":\"\",\r\n            \"fqdn\":\"\",\r\n            \"gl_account\":\"\",\r\n            \"hardware_status\":\"installed\",\r\n            \"hardware_substatus\":\"\",\r\n            \"install_date\":\"2021-12-05 08:00:00\",\r\n            \"install_status\":1,\r\n            \"internet_facing\":false,\r\n            \"invoice_number\":\"INV0166221\",\r\n            \"ip_address\":\"\",\r\n            \"justification\":\"\",\r\n            \"last_discovered\":\"2007-04-12 23:17:45\",\r\n            \"lease_id\":\"\",\r\n            \"life_cycle_stage\":\"\",\r\n            \"life_cycle_stage_status\":\"\",\r\n            \"location\":\"f48b202a0a0a0ba7004d9fdfb817015d\",\r\n            \"mac_address\":\"\",\r\n            \"maintenance_schedule\":\"\",\r\n            \"managed_by\":\"\",\r\n            \"managed_by_group\":\"\",\r\n            \"manufacturer\":\"aa0a6df8c611227601cd2ed45989e0ac\",\r\n            \"model_id\":\"a9a2d0c3c6112276010db16c5ddd3461\",\r\n            \"model_number\":\"\",\r\n            \"monitor\":false,\r\n            \"most_frequent_user\":\"\",\r\n            \"name\":\"*ANNIE-IBM153\",\r\n            \"object_id\":\"\",\r\n            \"operational_status\":1,\r\n            \"order_date\":\"\",\r\n            \"os\":\"Windows XP Professional\",\r\n            \"os_address_width\":\"\",\r\n            \"os_domain\":\"\",\r\n            \"os_service_pack\":\"Service Pack 2\",\r\n            \"os_version\":\"5.1.2600\",\r\n            \"owned_by\":\"\",\r\n            \"po_number\":\"PO27711\",\r\n            \"purchase_date\":\"2016-11-27\",\r\n            \"ram\":1534,\r\n            \"schedule\":\"\",\r\n            \"serial_number\":\"L3BB911-new\",\r\n            \"short_description\":\"test1\",\r\n            \"skip_sync\":false,\r\n            \"start_date\":\"\",\r\n            \"subcategory\":\"\",\r\n            \"support_group\":\"\",\r\n            \"supported_by\":\"\",\r\n            \"sys_class_name\":\"cmdb_ci_computer\",\r\n            \"sys_class_path\":\"/!!/!2/!(\",\r\n            \"sys_created_by\":\"admin\",\r\n            \"sys_created_on\":\"2011-08-12 21:11:18\",\r\n            \"sys_domain\":\"global\",\r\n            \"sys_domain_path\":\"/\",\r\n            \"sys_id\":\"b4fd7c8437201000deeabfc8bcbe5dc1\",\r\n            \"sys_mod_count\":16,\r\n            \"sys_updated_by\":\"system\",\r\n            \"sys_updated_on\":\"2022-09-17 02:58:34\",\r\n            \"unverified\":false,\r\n            \"vendor\":\"aa0a6df8c611227601cd2ed45989e0ac\",\r\n            \"virtual\":false,\r\n            \"warranty_expiration\":\"2017-11-27\"\r\n         }\r\n      },\r\n      {\r\n         \"cmdb_ci_spkg\":{\r\n            \"asset\":\"\",\r\n            \"asset_tag\":\"\",\r\n            \"assigned\":\"\",\r\n            \"assigned_to\":\"\",\r\n            \"assignment_group\":\"\",\r\n            \"attestation_score\":\"\",\r\n            \"attestation_status\":\"\",\r\n            \"attested\":false,\r\n            \"attested_by\":\"\",\r\n            \"attested_date\":\"\",\r\n            \"attributes\":\"\",\r\n            \"business_unit\":\"\",\r\n            \"can_print\":false,\r\n            \"category\":\"\",\r\n            \"change_control\":\"\",\r\n            \"checked_in\":\"\",\r\n            \"checked_out\":\"\",\r\n            \"cmdb_ot_entity\":\"\",\r\n            \"comments\":\"\",\r\n            \"company\":\"\",\r\n            \"correlation_id\":\"\",\r\n            \"cost\":\"\",\r\n            \"cost_cc\":\"\",\r\n            \"cost_center\":\"\",\r\n            \"delivery_date\":\"\",\r\n            \"department\":\"\",\r\n            \"discovery_source\":\"\",\r\n            \"dns_domain\":\"\",\r\n            \"due\":\"\",\r\n            \"due_in\":\"\",\r\n            \"duplicate_of\":\"\",\r\n            \"environment\":\"\",\r\n            \"fault_count\":0,\r\n            \"first_discovered\":\"\",\r\n            \"fqdn\":\"\",\r\n            \"gl_account\":\"\",\r\n            \"install_count\":1,\r\n            \"install_date\":\"\",\r\n            \"install_status\":1,\r\n            \"invoice_number\":\"\",\r\n            \"ip_address\":\"\",\r\n            \"justification\":\"\",\r\n            \"key\":\"7200_:::_47.0.1\",\r\n            \"last_discovered\":\"\",\r\n            \"lease_id\":\"\",\r\n            \"license_available\":-1,\r\n            \"license_count\":0,\r\n            \"life_cycle_stage\":\"\",\r\n            \"life_cycle_stage_status\":\"\",\r\n            \"location\":\"\",\r\n            \"mac_address\":\"\",\r\n            \"maintenance_schedule\":\"\",\r\n            \"managed_by\":\"\",\r\n            \"managed_by_group\":\"\",\r\n            \"manufacturer\":\"b7e7a507c0a8016900920ee7d71d6df9\",\r\n            \"model_id\":\"\",\r\n            \"model_number\":\"\",\r\n            \"monitor\":false,\r\n            \"msft_sms_id\":\"\",\r\n            \"name\":13,\r\n            \"operational_status\":1,\r\n            \"order_date\":\"\",\r\n            \"owned_by\":\"\",\r\n            \"package_name\":\"7200 47.0.1\",\r\n            \"part_of\":\"\",\r\n            \"po_number\":\"\",\r\n            \"purchase_date\":\"\",\r\n            \"schedule\":\"\",\r\n            \"serial_number\":\"\",\r\n            \"short_description\":\"test1t\",\r\n            \"skip_sync\":false,\r\n            \"start_date\":\"\",\r\n            \"subcategory\":\"\",\r\n            \"support_group\":\"\",\r\n            \"supported_by\":\"\",\r\n            \"sys_class_name\":\"cmdb_ci_spkg\",\r\n            \"sys_class_path\":\"/!!/#,\",\r\n            \"sys_created_by\":\"system\",\r\n            \"sys_created_on\":\"2006-02-07 22:58:39\",\r\n            \"sys_domain\":\"global\",\r\n            \"sys_domain_path\":\"/\",\r\n            \"sys_id\":\"46bcea50a9fe1981008b071af781dcbb\",\r\n            \"sys_mod_count\":3,\r\n            \"sys_updated_by\":\"system\",\r\n            \"sys_updated_on\":\"2022-09-17 03:01:51\",\r\n            \"unverified\":false,\r\n            \"vendor\":\"\",\r\n            \"version\":\"47.0.1\",\r\n            \"warranty_expiration\":\"\"\r\n         }\r\n      }\r\n   ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://dev72055.service-now.com/api/now/import/u_computer_and_sofware/insertMultiple"
+			},
+			"response": []
+		},
+		{
+			"name": "CI Acme North America IBM Cis",
+			"_postman_id": "d911f5f5-e687-4058-b4e6-be455643736f",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"accept": true,
+					"user-agent": true,
+					"accept-encoding": true
+				},
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "Merkury2023!!",
+						"username": "admin"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-UserToken",
+						"value": "ae1231574721a110f9eafee3846d435cd39fcc4479566f18d8f9915f569cf2a62808ba34",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"records\": [{\r\n            \"cmdb_ci_linux_server\": {\r\n                \"asset\": \"87c1ba8837f3100044e0bfc8bcbe5dbd\",\r\n                \"asset_tag\": \"P1000207\",\r\n                \"assigned\": \"2020-12-08 08:00:00\",\r\n                \"assigned_to\": \"\",\r\n                \"assignment_group\": \"\",\r\n                \"attestation_score\": \"\",\r\n                \"attestation_status\": \"\",\r\n                \"attested\": false,\r\n                \"attested_by\": \"\",\r\n                \"attested_date\": \"\",\r\n                \"attributes\": \"\",\r\n                \"business_unit\": \"\",\r\n                \"can_print\": false,\r\n                \"category\": \"Do not migrate to asset\",\r\n                \"cd_rom\": false,\r\n                \"cd_speed\": \"\",\r\n                \"change_control\": \"\",\r\n                \"chassis_type\": \"\",\r\n                \"checked_in\": \"\",\r\n                \"checked_out\": \"\",\r\n                \"classification\": \"Production\",\r\n                \"cluster_id\": \"\",\r\n                \"cluster_name\": \"\",\r\n                \"cmdb_ot_entity\": \"\",\r\n                \"comments\": \"\",\r\n                \"company\": \"e7c1f3d53790200044e0bfc8bcbe5deb\",\r\n                \"correlation_id\": \"\",\r\n                \"cost\": 45557.5,\r\n                \"cost_cc\": \"USD\",\r\n                \"cost_center\": \"\",\r\n                \"cpu_core_count\": \"\",\r\n                \"cpu_core_thread\": \"\",\r\n                \"cpu_count\": 1,\r\n                \"cpu_manufacturer\": \"\",\r\n                \"cpu_name\": \"\",\r\n                \"cpu_speed\": 2800,\r\n                \"cpu_type\": \"Intel\",\r\n                \"default_gateway\": \"\",\r\n                \"delivery_date\": \"\",\r\n                \"department\": \"\",\r\n                \"discovery_source\": \"\",\r\n                \"disk_space\": 40,\r\n                \"dns_domain\": \"\",\r\n                \"dr_backup\": \"\",\r\n                \"due\": \"\",\r\n                \"due_in\": \"\",\r\n                \"duplicate_of\": \"\",\r\n                \"environment\": \"\",\r\n                \"fault_count\": 0,\r\n                \"firewall_status\": \"Intranet\",\r\n                \"first_discovered\": \"\",\r\n                \"floppy\": \"\",\r\n                \"form_factor\": \"\",\r\n                \"fqdn\": \"\",\r\n                \"gl_account\": \"\",\r\n                \"hardware_status\": \"\",\r\n                \"hardware_substatus\": \"\",\r\n                \"host_name\": \"\",\r\n                \"install_date\": \"2021-09-20 08:00:00\",\r\n                \"install_status\": 1,\r\n                \"internet_facing\": false,\r\n                \"invoice_number\": \"\",\r\n                \"ip_address\": \"\",\r\n                \"justification\": \"\",\r\n                \"kernel_release\": \"\",\r\n                \"last_discovered\": \"\",\r\n                \"lease_id\": \"\",\r\n                \"life_cycle_stage\": \"\",\r\n                \"life_cycle_stage_status\": \"\",\r\n                \"location\": \"25ab9f690a0a0bb3001c5fec1d0d7bcb\",\r\n                \"mac_address\": \"\",\r\n                \"maintenance_schedule\": \"\",\r\n                \"managed_by\": \"8a826bf03710200044e0bfc8bcbe5d72\",\r\n                \"managed_by_group\": \"\",\r\n                \"manufacturer\": \"c115c2f737e3100044e0bfc8bcbe5d46\",\r\n                \"model_id\": \"5f5fbcc3c0a8010e00f3b27814f3b96b\",\r\n                \"model_number\": \"\",\r\n                \"monitor\": false,\r\n                \"most_frequent_user\": \"\",\r\n                \"name\": \"PS LinuxApp02-mate-test-1021\",\r\n                \"object_id\": \"\",\r\n                \"operational_status\": 1,\r\n                \"order_date\": \"\",\r\n                \"os\": \"Linux Red Hat\",\r\n                \"os_address_width\": \"\",\r\n                \"os_domain\": \"\",\r\n                \"os_service_pack\": \"\",\r\n                \"os_version\": \"2.6.9-22.0.1.ELsmp\",\r\n                \"owned_by\": \"\",\r\n                \"po_number\": \"\",\r\n                \"purchase_date\": \"\",\r\n                \"ram\": 2048,\r\n                \"schedule\": \"\",\r\n                \"serial_number\": \"\",\r\n                \"short_description\": \"\",\r\n                \"skip_sync\": false,\r\n                \"start_date\": \"\",\r\n                \"subcategory\": \"\",\r\n                \"support_group\": \"\",\r\n                \"supported_by\": \"\",\r\n                \"sys_class_name\": \"cmdb_ci_linux_server\",\r\n                \"sys_class_path\": \"/!!/!2/!(/!!/!0\",\r\n                \"sys_created_by\": \"glide.maint\",\r\n                \"sys_created_on\": \"2008-10-26 18:15:06\",\r\n                \"sys_domain\": \"global\",\r\n                \"sys_domain_path\": \"/\",\r\n                \"sys_id\": \"3a5dd3dbc0a8ce0100655f1ec66ed42c\",\r\n                \"sys_mod_count\": 25,\r\n                \"sys_updated_by\": \"system\",\r\n                \"sys_updated_on\": \"2022-09-17 02:58:44\",\r\n                \"unverified\": false,\r\n                \"used_for\": \"Production\",\r\n                \"vendor\": \"3efe8c4c37423000158bbfc8bcbe5d7d\",\r\n                \"virtual\": false,\r\n                \"warranty_expiration\": \"\"\r\n            }\r\n\r\n        }\r\n    ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://dev72055.service-now.com/api/now/import/u_my_server_linux/insertMultiple"
+			},
+			"response": []
+		},
+		{
+			"name": "linux server - single CI",
+			"_postman_id": "50fc3be6-720a-4fb5-93dc-d077c3ce362a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "Merkury2023!!",
+						"username": "admin"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"records\": [{\r\n            \"cmdb_ci_linux_server\": {\r\n                \"asset\": \"87c1ba8837f3100044e0bfc8bcbe5dbd\",\r\n                \"asset_tag\": \"P1000207\",\r\n                \"assigned\": \"2021-12-08 08:00:00\",\r\n                \"assigned_to\": \"\",\r\n                \"assignment_group\": \"\",\r\n                \"attestation_score\": \"\",\r\n                \"attestation_status\": \"\",\r\n                \"attested\": false,\r\n                \"attested_by\": \"\",\r\n                \"attested_date\": \"\",\r\n                \"attributes\": \"\",\r\n                \"business_unit\": \"\",\r\n                \"can_print\": false,\r\n                \"category\": \"Do not migrate to asset\",\r\n                \"cd_rom\": false,\r\n                \"cd_speed\": \"\",\r\n                \"change_control\": \"\",\r\n                \"chassis_type\": \"\",\r\n                \"checked_in\": \"\",\r\n                \"checked_out\": \"\",\r\n                \"classification\": \"Production\",\r\n                \"cluster_id\": \"\",\r\n                \"cluster_name\": \"\",\r\n                \"cmdb_ot_entity\": \"\",\r\n                \"comments\": \"\",\r\n                \"company\": \"e7c1f3d53790200044e0bfc8bcbe5deb\",\r\n                \"correlation_id\": \"\",\r\n                \"cost\": 45557.5,\r\n                \"cost_cc\": \"USD\",\r\n                \"cost_center\": \"\",\r\n                \"cpu_core_count\": \"\",\r\n                \"cpu_core_thread\": \"\",\r\n                \"cpu_count\": 1,\r\n                \"cpu_manufacturer\": \"\",\r\n                \"cpu_name\": \"\",\r\n                \"cpu_speed\": 2800,\r\n                \"cpu_type\": \"Intel\",\r\n                \"default_gateway\": \"\",\r\n                \"delivery_date\": \"\",\r\n                \"department\": \"\",\r\n                \"discovery_source\": \"\",\r\n                \"disk_space\": 40,\r\n                \"dns_domain\": \"\",\r\n                \"dr_backup\": \"\",\r\n                \"due\": \"\",\r\n                \"due_in\": \"\",\r\n                \"duplicate_of\": \"\",\r\n                \"environment\": \"\",\r\n                \"fault_count\": 0,\r\n                \"firewall_status\": \"Intranet\",\r\n                \"first_discovered\": \"\",\r\n                \"floppy\": \"\",\r\n                \"form_factor\": \"\",\r\n                \"fqdn\": \"\",\r\n                \"gl_account\": \"\",\r\n                \"hardware_status\": \"\",\r\n                \"hardware_substatus\": \"\",\r\n                \"host_name\": \"\",\r\n                \"install_date\": \"2021-09-20 08:00:00\",\r\n                \"install_status\": 1,\r\n                \"internet_facing\": false,\r\n                \"invoice_number\": \"\",\r\n                \"ip_address\": \"\",\r\n                \"justification\": \"\",\r\n                \"kernel_release\": \"\",\r\n                \"last_discovered\": \"\",\r\n                \"lease_id\": \"\",\r\n                \"life_cycle_stage\": \"\",\r\n                \"life_cycle_stage_status\": \"\",\r\n                \"location\": \"25ab9f690a0a0bb3001c5fec1d0d7bcb\",\r\n                \"mac_address\": \"\",\r\n                \"maintenance_schedule\": \"\",\r\n                \"managed_by\": \"8a826bf03710200044e0bfc8bcbe5d72\",\r\n                \"managed_by_group\": \"\",\r\n                \"manufacturer\": \"c115c2f737e3100044e0bfc8bcbe5d46\",\r\n                \"model_id\": \"5f5fbcc3c0a8010e00f3b27814f3b96b\",\r\n                \"model_number\": \"\",\r\n                \"monitor\": false,\r\n                \"most_frequent_user\": \"\",\r\n                \"name\": \"PS LinuxApp02-mate-1\",\r\n                \"object_id\": \"\",\r\n                \"operational_status\": 1,\r\n                \"order_date\": \"\",\r\n                \"os\": \"Linux Red Hat\",\r\n                \"os_address_width\": \"\",\r\n                \"os_domain\": \"\",\r\n                \"os_service_pack\": \"\",\r\n                \"os_version\": \"2.6.9-22.0.1.ELsmp\",\r\n                \"owned_by\": \"\",\r\n                \"po_number\": \"\",\r\n                \"purchase_date\": \"\",\r\n                \"ram\": 2048,\r\n                \"schedule\": \"\",\r\n                \"serial_number\": \"\",\r\n                \"short_description\": \"\",\r\n                \"skip_sync\": false,\r\n                \"start_date\": \"\",\r\n                \"subcategory\": \"\",\r\n                \"support_group\": \"\",\r\n                \"supported_by\": \"\",\r\n                \"sys_class_name\": \"cmdb_ci_linux_server\",\r\n                \"sys_class_path\": \"/!!/!2/!(/!!/!0\",\r\n                \"sys_created_by\": \"glide.maint\",\r\n                \"sys_created_on\": \"2008-10-26 18:15:06\",\r\n                \"sys_domain\": \"global\",\r\n                \"sys_domain_path\": \"/\",\r\n                \"sys_id\": \"3a5dd3dbc0a8ce0100655f1ec66ed42c\",\r\n                \"sys_mod_count\": 25,\r\n                \"sys_updated_by\": \"system\",\r\n                \"sys_updated_on\": \"2022-09-17 02:58:44\",\r\n                \"unverified\": false,\r\n                \"used_for\": \"Production\",\r\n                \"vendor\": \"3efe8c4c37423000158bbfc8bcbe5d7d\",\r\n                \"virtual\": false,\r\n                \"warranty_expiration\": \"\"\r\n            }\r\n\r\n        }\r\n    ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://dev72055.service-now.com/api/now/import/u_my_server_linux/insertMultiple"
+			},
+			"response": []
+		},
+		{
+			"name": "computer - only",
+			"_postman_id": "3a0caa6a-06e2-42c5-9e16-a4b9ae6ab76b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "Merkury2023!!",
+						"username": "admin"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"items\": [\r\n    {\r\n      \"className\": \"cmdb_ci_computer\",\r\n      \"asset\": \"73c1fa8837f3100044e0bfc8bcbe5ded\",\r\n      \"asset_tag\": \"P1000226\",\r\n      \"assigned\": \"2022-06-02 07:00:00\",\r\n      \"assigned_to\": \"c9884ac30a0a0bdb3879454e8f02774e\",\r\n      \"assignment_group\": \"\",\r\n      \"attestation_score\": \"\",\r\n      \"attestation_status\": \"\",\r\n      \"attested\": false,\r\n      \"attested_by\": \"\",\r\n      \"attested_date\": \"\",\r\n      \"attributes\": \"\",\r\n      \"business_unit\": \"\",\r\n      \"can_print\": false,\r\n      \"category\": \"Do not migrate to asset\",\r\n      \"cd_rom\": false,\r\n      \"cd_speed\": \"\",\r\n      \"change_control\": \"\",\r\n      \"chassis_type\": \"\",\r\n      \"checked_in\": \"\",\r\n      \"checked_out\": \"\",\r\n      \"cmdb_ot_entity\": \"\",\r\n      \"comments\": \"\",\r\n      \"company\": \"31bea3d53790200044e0bfc8bcbe5dec\",\r\n      \"correlation_id\": \"\",\r\n      \"cost\": 3665,\r\n      \"cost_cc\": \"USD\",\r\n      \"cost_center\": \"d9d01546c0a80a6403e18b82250c80a1\",\r\n      \"cpu_core_count\": 1,\r\n      \"cpu_core_thread\": \"\",\r\n      \"cpu_count\": 1,\r\n      \"cpu_manufacturer\": \"7aad6d00c611228400f00e0f80b67d2d\",\r\n      \"cpu_name\": \"Intel(R) Pentium(R) M processor 1.86GHz\",\r\n      \"cpu_speed\": 798,\r\n      \"cpu_type\": \"\",\r\n      \"default_gateway\": \"\",\r\n      \"delivery_date\": \"\",\r\n      \"department\": \"a581ab703710200044e0bfc8bcbe5de8\",\r\n      \"discovery_source\": \"\",\r\n      \"disk_space\": 51,\r\n      \"dns_domain\": \"\",\r\n      \"due\": \"\",\r\n      \"due_in\": \"\",\r\n      \"duplicate_of\": \"\",\r\n      \"environment\": \"\",\r\n      \"fault_count\": 0,\r\n      \"first_discovered\": \"2007-03-13 20:55:20\",\r\n      \"floppy\": \"\",\r\n      \"form_factor\": \"\",\r\n      \"fqdn\": \"\",\r\n      \"gl_account\": \"\",\r\n      \"hardware_status\": \"installed\",\r\n      \"hardware_substatus\": \"\",\r\n      \"install_date\": \"2021-12-05 08:00:00\",\r\n      \"install_status\": 1,\r\n      \"internet_facing\": false,\r\n      \"invoice_number\": \"INV0166221\",\r\n      \"ip_address\": \"\",\r\n      \"justification\": \"\",\r\n      \"last_discovered\": \"2007-04-12 23:17:45\",\r\n      \"lease_id\": \"\",\r\n      \"life_cycle_stage\": \"\",\r\n      \"life_cycle_stage_status\": \"\",\r\n      \"location\": \"f48b202a0a0a0ba7004d9fdfb817015d\",\r\n      \"mac_address\": \"\",\r\n      \"maintenance_schedule\": \"\",\r\n      \"managed_by\": \"\",\r\n      \"managed_by_group\": \"\",\r\n      \"manufacturer\": \"aa0a6df8c611227601cd2ed45989e0ac\",\r\n      \"model_id\": \"a9a2d0c3c6112276010db16c5ddd3461\",\r\n      \"model_number\": \"\",\r\n      \"monitor\": false,\r\n      \"most_frequent_user\": \"\",\r\n      \"name\": \"*ANNIE-IBM-json\",\r\n      \"object_id\": \"\",\r\n      \"operational_status\": 1,\r\n      \"order_date\": \"\",\r\n      \"os\": \"Windows XP Professional\",\r\n      \"os_address_width\": \"\",\r\n      \"os_domain\": \"\",\r\n      \"os_service_pack\": \"Service Pack 2\",\r\n      \"os_version\": \"5.1.2600\",\r\n      \"owned_by\": \"\",\r\n      \"po_number\": \"PO27711\",\r\n      \"purchase_date\": \"2016-11-27\",\r\n      \"ram\": 1534,\r\n      \"schedule\": \"\",\r\n      \"serial_number\": \"L3BB911-new\",\r\n      \"short_description\": \"\",\r\n      \"skip_sync\": false,\r\n      \"start_date\": \"\",\r\n      \"subcategory\": \"\",\r\n      \"support_group\": \"\",\r\n      \"supported_by\": \"\",\r\n      \"sys_class_name\": \"cmdb_ci_computer\",\r\n      \"sys_class_path\": \"/!!/!2/!(\",\r\n      \"sys_created_by\": \"admin\",\r\n      \"sys_created_on\": \"2011-08-12 21:11:18\",\r\n      \"sys_domain\": \"global\",\r\n      \"sys_domain_path\": \"/\",\r\n      \"sys_id\": \"b4fd7c8437201000deeabfc8bcbe5dc1\",\r\n      \"sys_mod_count\": 16,\r\n      \"sys_updated_by\": \"system\",\r\n      \"sys_updated_on\": \"2022-09-17 02:58:34\",\r\n      \"unverified\": false,\r\n      \"vendor\": \"aa0a6df8c611227601cd2ed45989e0ac\",\r\n      \"virtual\": false,\r\n      \"warranty_expiration\": \"2017-11-27\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://dev72055.service-now.com/api/now/import/u_just_computer/insertMultiple"
+			},
+			"response": []
+		},
+		{
+			"name": "IR Router - multi",
+			"_postman_id": "5a69e1f5-37ac-414e-9b07-deae1774fa6a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "Merkury2023!!",
+						"username": "admin"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"items\" : [ {\r\n    \"className\" : \"cmdb_ci_ip_router\",\r\n    \"values\" : {\r\n      \"short_description\" : \"Cisco IOS Software, C1900 Software (C1900-UNIVERSALK9-M), Version 15.2(4)M3, RELEASE SOFTWARE (fc2)\\nTechnical Support: http://www.cisco.com/techsupport\\nCopyright (c) 1986-2013 by Cisco Systems, Inc.\\nCompiled Tue 26-Feb-13 02:11 by prod_rel_team\\nCISCO1921/K9 chassis, Hw Serial#: FTX173180UP, Hw Revision: 1.0\\nSystem OID: 1.3.6.1.4.1.9.1.1191\",\r\n      \"can_switch\" : \"true\",\r\n      \"serial_number\" : \"FTX173180UP\",\r\n      \"model_id\" : \"CISCO1921/K9\",\r\n      \"ip_address\" : \"172.24.109.126\",\r\n      \"ports\" : \"0\",\r\n      \"discovery_proto_id\" : \"NYBCNYCK03RT.nybloodcenter.org:NYBCNYCK03RT.nybloodcenter.org\",\r\n      \"sys_class_name\" : \"cmdb_ci_ip_router\",\r\n      \"manufacturer\" : \"Cisco\",\r\n      \"discovery_proto_type\" : \"CDP\",\r\n      \"can_route\" : \"true\",\r\n      \"can_partitionvlans\" : \"false\",\r\n      \"name\" : \"nybcnyck03rt\",\r\n      \"classifier\" : \"b9e8a5b40ab30151007111d556cd0718\"\r\n    },\r\n    \"lookup\" : [ {\r\n      \"className\" : \"cmdb_serial_number\",\r\n      \"values\" : {\r\n        \"valid\" : \"true\",\r\n        \"serial_number\" : \"FTX173180UP\",\r\n        \"serial_number_type\" : \"physical\"\r\n      }\r\n    }, {\r\n      \"className\" : \"cmdb_serial_number\",\r\n      \"values\" : {\r\n        \"valid\" : \"true\",\r\n        \"serial_number\" : \"FTX173180UP\",\r\n        \"serial_number_type\" : \"cisco_chassis\"\r\n      }\r\n    } ],\r\n    \"related\" : [ {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"00:1e:f7:e0:7a:c6\",\r\n        \"ip_address\" : \"172.24.109.66\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"00:a6:ca:ec:cd:a1\",\r\n        \"ip_address\" : \"172.24.109.68\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"00:00:0c:07:ac:01\",\r\n        \"ip_address\" : \"172.24.109.69\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"ac:17:c8:f3:57:50\",\r\n        \"ip_address\" : \"172.24.109.70\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"48:ba:4e:35:4a:e6\",\r\n        \"ip_address\" : \"172.24.109.71\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"00:50:c2:39:f9:64\",\r\n        \"ip_address\" : \"172.24.109.72\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"00:07:4d:28:b3:65\",\r\n        \"ip_address\" : \"172.24.109.74\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"ac:17:c8:f3:57:50\",\r\n        \"ip_address\" : \"172.24.109.75\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"70:85:c2:10:fa:e6\",\r\n        \"ip_address\" : \"172.24.109.79\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"9c:7b:ef:24:5d:5b\",\r\n        \"ip_address\" : \"172.24.109.80\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"9c:7b:ef:24:63:2e\",\r\n        \"ip_address\" : \"172.24.109.81\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"f8:7b:20:4e:30:dc\",\r\n        \"ip_address\" : \"172.24.109.82\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"c8:d3:ff:0e:04:84\",\r\n        \"ip_address\" : \"172.24.109.83\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"f8:7b:20:4e:30:a8\",\r\n        \"ip_address\" : \"172.24.109.85\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"74:86:0b:71:d4:6e\",\r\n        \"ip_address\" : \"172.24.109.86\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"9c:7b:ef:24:77:64\",\r\n        \"ip_address\" : \"172.24.109.90\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"9c:7b:ef:24:74:1b\",\r\n        \"ip_address\" : \"172.24.109.91\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"9c:7b:ef:24:77:be\",\r\n        \"ip_address\" : \"172.24.109.92\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"9c:7b:ef:23:f9:da\",\r\n        \"ip_address\" : \"172.24.109.93\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"48:ba:4e:35:5a:02\",\r\n        \"ip_address\" : \"172.24.109.98\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"00:40:58:17:22:05\",\r\n        \"ip_address\" : \"172.24.109.120\"\r\n      }\r\n    }, {\r\n      \"className\" : \"discovery_net_arp_table\",\r\n      \"values\" : {\r\n        \"mac_address\" : \"4c:00:82:2b:60:e0\",\r\n        \"ip_address\" : \"172.24.109.126\"\r\n      }\r\n    } ],\r\n    \"internal_id\" : \"24fc2900-7a6a-4abb-9a4f-5b86ecada282\"\r\n  }, {\r\n    \"className\" : \"cmdb_ci_ip_address\",\r\n    \"values\" : {\r\n      \"ip_version\" : \"4\",\r\n      \"install_status\" : \"1\",\r\n      \"netmask\" : \"255.255.255.255\",\r\n      \"ip_address\" : \"10.200.39.143\",\r\n      \"sys_class_name\" : \"cmdb_ci_ip_address\"\r\n    },\r\n    \"internal_id\" : \"be887d13-437b-4f7d-86df-054431e54062\"\r\n  }, {\r\n    \"className\" : \"cmdb_ci_ip_address\",\r\n    \"values\" : {\r\n      \"ip_version\" : \"4\",\r\n      \"install_status\" : \"1\",\r\n      \"netmask\" : \"255.255.255.252\",\r\n      \"ip_address\" : \"63.138.40.230\",\r\n      \"sys_class_name\" : \"cmdb_ci_ip_address\"\r\n    },\r\n    \"internal_id\" : \"4d68fe91-c4c7-4746-9eb2-489cef6f777e\"\r\n  }, {\r\n    \"className\" : \"cmdb_ci_ip_address\",\r\n    \"values\" : {\r\n      \"ip_version\" : \"4\",\r\n      \"install_status\" : \"1\",\r\n      \"netmask\" : \"255.255.255.192\",\r\n      \"ip_address\" : \"172.24.109.126\",\r\n      \"sys_class_name\" : \"cmdb_ci_ip_address\"\r\n    },\r\n    \"internal_id\" : \"ce2dadb2-37b3-494c-9b8f-a6ef711db2bf\"\r\n  }, {\r\n    \"className\" : \"cmdb_ci_dns_name\",\r\n    \"values\" : {\r\n      \"install_status\" : \"1\",\r\n      \"fqdn\" : \"63-138-40-230.customer.static.ip.paetec.net\",\r\n      \"name\" : \"63-138-40-230.customer.static.ip.paetec.net\",\r\n      \"ip_address\" : \"63.138.40.230\",\r\n      \"sys_class_name\" : \"cmdb_ci_dns_name\"\r\n    },\r\n    \"internal_id\" : \"fd2b5e11-11eb-4605-9e91-3b911c5359e6\"\r\n  }, {\r\n    \"className\" : \"dscy_switchport\",\r\n    \"values\" : {\r\n      \"install_status\" : \"1\",\r\n      \"mac_address\" : \"\",\r\n      \"port_number\" : \"\",\r\n      \"interface_name\" : \"Serial0/0/0\",\r\n      \"name\" : \"Serial0/0/0\",\r\n      \"type\" : \"23\",\r\n      \"interface_number\" : \"1\",\r\n      \"sys_class_name\" : \"dscy_switchport\",\r\n      \"status\" : \"1\"\r\n    },\r\n    \"internal_id\" : \"4b349343-b2e0-4ce8-84f2-14ac86d19c7d\"\r\n  }, {\r\n    \"className\" : \"dscy_switchport\",\r\n    \"values\" : {\r\n      \"install_status\" : \"1\",\r\n      \"mac_address\" : \"00:00:00:00:00:00\",\r\n      \"port_number\" : \"\",\r\n      \"interface_name\" : \"Embedded-Service-Engine0/0\",\r\n      \"name\" : \"Embedded-Service-Engine0/0\",\r\n      \"type\" : \"6\",\r\n      \"interface_number\" : \"2\",\r\n      \"sys_class_name\" : \"dscy_switchport\",\r\n      \"status\" : \"2\"\r\n    },\r\n    \"internal_id\" : \"fc62cd65-cb91-4da1-9a53-6842a8b81785\"\r\n  }, {\r\n    \"className\" : \"dscy_switchport\",\r\n    \"values\" : {\r\n      \"install_status\" : \"1\",\r\n      \"mac_address\" : \"4c:00:82:2b:60:e0\",\r\n      \"port_number\" : \"\",\r\n      \"interface_name\" : \"GigabitEthernet0/0\",\r\n      \"name\" : \"GigabitEthernet0/0\",\r\n      \"type\" : \"6\",\r\n      \"interface_number\" : \"3\",\r\n      \"sys_class_name\" : \"dscy_switchport\",\r\n      \"status\" : \"1\"\r\n    },\r\n    \"internal_id\" : \"a970145c-09b8-4256-84eb-0d8a06996e88\"\r\n  }, {\r\n    \"className\" : \"dscy_switchport\",\r\n    \"values\" : {\r\n      \"install_status\" : \"1\",\r\n      \"mac_address\" : \"4c:00:82:2b:60:e1\",\r\n      \"port_number\" : \"\",\r\n      \"interface_name\" : \"GigabitEthernet0/1\",\r\n      \"name\" : \"GigabitEthernet0/1\",\r\n      \"type\" : \"6\",\r\n      \"interface_number\" : \"4\",\r\n      \"sys_class_name\" : \"dscy_switchport\",\r\n      \"status\" : \"2\"\r\n    },\r\n    \"internal_id\" : \"b2368b54-0d29-4401-83f9-154eb30a5bc4\"\r\n  }, {\r\n    \"className\" : \"dscy_switchport\",\r\n    \"values\" : {\r\n      \"install_status\" : \"1\",\r\n      \"mac_address\" : \"\",\r\n      \"port_number\" : \"\",\r\n      \"interface_name\" : \"Loopback0\",\r\n      \"name\" : \"Loopback0\",\r\n      \"type\" : \"24\",\r\n      \"interface_number\" : \"6\",\r\n      \"sys_class_name\" : \"dscy_switchport\",\r\n      \"status\" : \"2\"\r\n    },\r\n    \"internal_id\" : \"44187518-ebed-4aa9-9554-b994d04c3c11\"\r\n  }, {\r\n    \"className\" : \"cmdb_ci_network_adapter\",\r\n    \"values\" : {\r\n      \"install_status\" : \"1\",\r\n      \"netmask\" : \"255.255.255.252\",\r\n      \"mac_address\" : \"\",\r\n      \"name\" : \"Serial0/0/0\",\r\n      \"alias\" : \"1\",\r\n      \"ip_address\" : \"63.138.40.230\",\r\n      \"sys_class_name\" : \"cmdb_ci_network_adapter\"\r\n    },\r\n    \"internal_id\" : \"345162de-9477-467f-9857-b79e60dcdee5\"\r\n  }, {\r\n    \"className\" : \"cmdb_ci_network_adapter\",\r\n    \"values\" : {\r\n      \"install_status\" : \"1\",\r\n      \"netmask\" : \"255.255.255.192\",\r\n      \"mac_address\" : \"4c:00:82:2b:60:e0\",\r\n      \"name\" : \"GigabitEthernet0/0\",\r\n      \"alias\" : \"3\",\r\n      \"ip_address\" : \"172.24.109.126\",\r\n      \"sys_class_name\" : \"cmdb_ci_network_adapter\"\r\n    },\r\n    \"internal_id\" : \"61c13253-3bcd-460d-baf4-e4769e59c41c\"\r\n  } ],\r\n  \"relations\" : [ {\r\n    \"type\" : \"Owns::Owned by\",\r\n    \"child\" : 10,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"type\" : \"Owns::Owned by\",\r\n    \"child\" : 11,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"type\" : \"Owns::Owned by\",\r\n    \"child\" : 2,\r\n    \"parent\" : 10\r\n  }, {\r\n    \"type\" : \"Owns::Owned by\",\r\n    \"child\" : 3,\r\n    \"parent\" : 11\r\n  }, {\r\n    \"type\" : \"Owns::Owned by\",\r\n    \"child\" : 1,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"type\" : \"Owns::Owned by\",\r\n    \"child\" : 2,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"type\" : \"Owns::Owned by\",\r\n    \"child\" : 3,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"type\" : \"Contains::Contained by\",\r\n    \"child\" : 5,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"type\" : \"Contains::Contained by\",\r\n    \"child\" : 6,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"type\" : \"Contains::Contained by\",\r\n    \"child\" : 7,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"type\" : \"Contains::Contained by\",\r\n    \"child\" : 8,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"type\" : \"Contains::Contained by\",\r\n    \"child\" : 9,\r\n    \"parent\" : 0\r\n  } ],\r\n  \"references\" : [ {\r\n    \"referenceDirection\" : \"childToParent\",\r\n    \"referenceField\" : \"cmdb_ci\",\r\n    \"child\" : 5,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"referenceDirection\" : \"childToParent\",\r\n    \"referenceField\" : \"cmdb_ci\",\r\n    \"child\" : 6,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"referenceDirection\" : \"childToParent\",\r\n    \"referenceField\" : \"cmdb_ci\",\r\n    \"child\" : 7,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"referenceDirection\" : \"childToParent\",\r\n    \"referenceField\" : \"cmdb_ci\",\r\n    \"child\" : 8,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"referenceDirection\" : \"childToParent\",\r\n    \"referenceField\" : \"cmdb_ci\",\r\n    \"child\" : 9,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"referenceDirection\" : \"childToParent\",\r\n    \"referenceField\" : \"cmdb_ci\",\r\n    \"child\" : 10,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"referenceDirection\" : \"childToParent\",\r\n    \"referenceField\" : \"cmdb_ci\",\r\n    \"child\" : 11,\r\n    \"parent\" : 0\r\n  }, {\r\n    \"referenceDirection\" : \"childToParent\",\r\n    \"referenceField\" : \"nic\",\r\n    \"child\" : 2,\r\n    \"parent\" : 10\r\n  }, {\r\n    \"referenceDirection\" : \"childToParent\",\r\n    \"referenceField\" : \"nic\",\r\n    \"child\" : 3,\r\n    \"parent\" : 11\r\n  } ],\r\n  \"mainCiType\" : \"cmdb_ci_ip_router\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://dev72055.service-now.com/api/now/import/u_only_ip_router/insertMultiple"
+			},
+			"response": []
+		},
+		{
+			"name": "computer - only",
+			"_postman_id": "0927b403-415d-43fa-86a2-7fc3c587be9d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "Merkury2023!!",
+						"username": "admin"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"items\": [\r\n    {\r\n      \"className\": \"cmdb_ci_computer\",\r\n      \"asset\": \"73c1fa8837f3100044e0bfc8bcbe5ded\",\r\n      \"asset_tag\": \"P1000226\",\r\n      \"assigned\": \"2022-06-02 07:00:00\",\r\n      \"assigned_to\": \"c9884ac30a0a0bdb3879454e8f02774e\",\r\n      \"assignment_group\": \"\",\r\n      \"attestation_score\": \"\",\r\n      \"attestation_status\": \"\",\r\n      \"attested\": false,\r\n      \"attested_by\": \"\",\r\n      \"attested_date\": \"\",\r\n      \"attributes\": \"\",\r\n      \"business_unit\": \"\",\r\n      \"can_print\": false,\r\n      \"category\": \"Do not migrate to asset\",\r\n      \"cd_rom\": false,\r\n      \"cd_speed\": \"\",\r\n      \"change_control\": \"\",\r\n      \"chassis_type\": \"\",\r\n      \"checked_in\": \"\",\r\n      \"checked_out\": \"\",\r\n      \"cmdb_ot_entity\": \"\",\r\n      \"comments\": \"\",\r\n      \"company\": \"31bea3d53790200044e0bfc8bcbe5dec\",\r\n      \"correlation_id\": \"\",\r\n      \"cost\": 3665,\r\n      \"cost_cc\": \"USD\",\r\n      \"cost_center\": \"d9d01546c0a80a6403e18b82250c80a1\",\r\n      \"cpu_core_count\": 1,\r\n      \"cpu_core_thread\": \"\",\r\n      \"cpu_count\": 1,\r\n      \"cpu_manufacturer\": \"7aad6d00c611228400f00e0f80b67d2d\",\r\n      \"cpu_name\": \"Intel(R) Pentium(R) M processor 1.86GHz\",\r\n      \"cpu_speed\": 798,\r\n      \"cpu_type\": \"\",\r\n      \"default_gateway\": \"\",\r\n      \"delivery_date\": \"\",\r\n      \"department\": \"a581ab703710200044e0bfc8bcbe5de8\",\r\n      \"discovery_source\": \"\",\r\n      \"disk_space\": 51,\r\n      \"dns_domain\": \"\",\r\n      \"due\": \"\",\r\n      \"due_in\": \"\",\r\n      \"duplicate_of\": \"\",\r\n      \"environment\": \"\",\r\n      \"fault_count\": 0,\r\n      \"first_discovered\": \"2007-03-13 20:55:20\",\r\n      \"floppy\": \"\",\r\n      \"form_factor\": \"\",\r\n      \"fqdn\": \"\",\r\n      \"gl_account\": \"\",\r\n      \"hardware_status\": \"installed\",\r\n      \"hardware_substatus\": \"\",\r\n      \"install_date\": \"2021-12-05 08:00:00\",\r\n      \"install_status\": 1,\r\n      \"internet_facing\": false,\r\n      \"invoice_number\": \"INV0166221\",\r\n      \"ip_address\": \"\",\r\n      \"justification\": \"\",\r\n      \"last_discovered\": \"2007-04-12 23:17:45\",\r\n      \"lease_id\": \"\",\r\n      \"life_cycle_stage\": \"\",\r\n      \"life_cycle_stage_status\": \"\",\r\n      \"location\": \"f48b202a0a0a0ba7004d9fdfb817015d\",\r\n      \"mac_address\": \"\",\r\n      \"maintenance_schedule\": \"\",\r\n      \"managed_by\": \"\",\r\n      \"managed_by_group\": \"\",\r\n      \"manufacturer\": \"aa0a6df8c611227601cd2ed45989e0ac\",\r\n      \"model_id\": \"a9a2d0c3c6112276010db16c5ddd3461\",\r\n      \"model_number\": \"\",\r\n      \"monitor\": false,\r\n      \"most_frequent_user\": \"\",\r\n      \"name\": \"*ANNIE-IBM-json\",\r\n      \"object_id\": \"\",\r\n      \"operational_status\": 1,\r\n      \"order_date\": \"\",\r\n      \"os\": \"Windows XP Professional\",\r\n      \"os_address_width\": \"\",\r\n      \"os_domain\": \"\",\r\n      \"os_service_pack\": \"Service Pack 2\",\r\n      \"os_version\": \"5.1.2600\",\r\n      \"owned_by\": \"\",\r\n      \"po_number\": \"PO27711\",\r\n      \"purchase_date\": \"2016-11-27\",\r\n      \"ram\": 1534,\r\n      \"schedule\": \"\",\r\n      \"serial_number\": \"L3BB911-new\",\r\n      \"short_description\": \"\",\r\n      \"skip_sync\": false,\r\n      \"start_date\": \"\",\r\n      \"subcategory\": \"\",\r\n      \"support_group\": \"\",\r\n      \"supported_by\": \"\",\r\n      \"sys_class_name\": \"cmdb_ci_computer\",\r\n      \"sys_class_path\": \"/!!/!2/!(\",\r\n      \"sys_created_by\": \"admin\",\r\n      \"sys_created_on\": \"2011-08-12 21:11:18\",\r\n      \"sys_domain\": \"global\",\r\n      \"sys_domain_path\": \"/\",\r\n      \"sys_id\": \"b4fd7c8437201000deeabfc8bcbe5dc1\",\r\n      \"sys_mod_count\": 16,\r\n      \"sys_updated_by\": \"system\",\r\n      \"sys_updated_on\": \"2022-09-17 02:58:34\",\r\n      \"unverified\": false,\r\n      \"vendor\": \"aa0a6df8c611227601cd2ed45989e0ac\",\r\n      \"virtual\": false,\r\n      \"warranty_expiration\": \"2017-11-27\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://dev72055.service-now.com/api/now/import/u_just_computer/insertMultiple"
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": {
+			"password": "Merkury2023!!",
+			"username": "admin"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "23b21c4d-fd3b-40c9-ba3a-b28df3bafe4c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "5228f0f8-0e63-4f59-9424-1625252e3635",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
