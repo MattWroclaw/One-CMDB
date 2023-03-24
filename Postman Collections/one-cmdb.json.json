@@ -262,8 +262,18 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"items\": [\r\n      {\r\n         \"className\": \"this is a className 6\",\r\n         \"lookup\": [],\r\n         \"values\": {\r\n            \"asset_tag\": \"IT transform 6\",\r\n            \"serial_number\": \"serial number 6\",\r\n            \"name\": \"IP router name 6\"\r\n         }\r\n      }\r\n   ],\r\n   \"relations\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://dev72055.service-now.com/api/now/import/u_ip_router_only/insertMultiple"
 			},
 			"response": []
 		},
