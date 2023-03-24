@@ -15,7 +15,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "invalid",
+						"password": "Merkury2023!!",
 						"username": "admin"
 					}
 				},
@@ -60,7 +60,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "invalid",
+						"password": "Merkury2023!!",
 						"username": "admin"
 					}
 				},
@@ -105,7 +105,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "invalid",
+						"password": "Merkury2023!!",
 						"username": "admin"
 					}
 				},
@@ -145,7 +145,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "invalid",
+						"password": "Merkury2023!!",
 						"username": "admin"
 					}
 				},
@@ -185,7 +185,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "invalid",
+						"password": "Merkury2023!!",
 						"username": "admin"
 					}
 				},
@@ -225,7 +225,7 @@
 				"auth": {
 					"type": "basic",
 					"basic": {
-						"password": "invalid",
+						"password": "Merkury2023!!",
 						"username": "admin"
 					}
 				},
@@ -266,12 +266,24 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "d912ab85-f8bf-4696-a44d-4e5b359c9ac5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"auth": {
 		"type": "basic",
 		"basic": {
-			"password": "invalid",
+			"password": "Merkury2023!!",
 			"username": "admin"
 		}
 	},
