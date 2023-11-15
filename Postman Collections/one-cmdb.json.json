@@ -288,6 +288,36 @@
 				"header": []
 			},
 			"response": []
+		},
+		{
+			"name": "https://atosglobaldev.service-now.com/api/now/import/x_aits2_sga_webser_sgca_webserver_iis/insertMultiple",
+			"id": "243a44ba-c0c2-4683-8a5d-c32db9e0e72c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "atos.cmdb_test_mat@onecmdbetl.com",
+						"username": "atos.cmdb_test_mat@onecmdbetl.com"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cmdb_ci_server\": [\r\n        {\r\n            \"correlation_id\": \"IIS Postman mateusz\",\r\n            \"serialnumber\": \"serial_100\",\r\n            \"name\": \"SEV-T10-Server1\",\r\n            \"u_number\": \"SNC.G.D01.014201819\",\r\n            \"host_name\": \"Host_name\",\r\n            \"last_discovered\": \"2023-03-23 07:56:34\",\r\n            \"sys_class_name\": \"cmdb_ci_win_server\",\r\n            \r\n            \"cmdb_ci_microsoft_iis_web_server\": [\r\n                {\r\n                    \"tcp_port\": \":9080:9081:9083:9084:9085:9086:9087:9088:9089:9090:9093:9094:9099:49630:\",\r\n                    \"running_process_key_parameters\": \"IIS auto-rf Robot-framework\",\r\n                    \"install_directory\": \"IIS auto-rf Robot-framework\",\r\n                    \"running_process_command\": \"IIS auto-rf Robot-framework\",\r\n                    \"name\": \"IIS ATF test-Robot-framework\",\r\n                    \"short_description\": \"IIS auto-rf Robot-framework\",\r\n                    \"type\": \"Microsoft-IIS\",\r\n                    \"running_process\": \"IIS auto-rf Robot-framework\",\r\n                    \"config_file\": \"IIS auto-rf Robot-framework\",\r\n                    \"pid\": \"4380\",\r\n                    \"version\": \"IIS auto-rf Robot-framework\",\r\n                    \"sys_class_name\": \"cmdb_ci_microsoft_iis_web_server\",\r\n                    \"company\": \"Snowdc\",\r\n                    \"correlation_id\": \"TIIS auto-rf Robot-framework\",\r\n                    \"u_data_source\": \"CALVI\",\r\n                    \"u_platform_type\": \"Production\",\r\n                    \"u_criticality\": \"2. Medium-High\",\r\n                    \"u_application_suite\": \"2\",\r\n                    \"last_discovered\": \"2023-03-23 07:56:34\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://atosglobaldev.service-now.com/api/now/import/x_aits2_sga_webser_sgca_webserver_iis/insertMultiple",
+				"description": "TEst IIS"
+			},
+			"response": []
 		}
 	],
 	"auth": {
